@@ -22,7 +22,7 @@ const Home = () => {
     const deleteTask = (index) => {
         const newTasks = tasks.filter((task, i) => i !== index); 
         setTask(newTasks); 
-	}
+	} 
     return (
         <div className="container">
             <h1>Things to Do</h1>  
